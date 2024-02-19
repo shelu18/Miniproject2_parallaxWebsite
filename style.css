@@ -8,9 +8,8 @@ html,body{
     color:#666;
 
 }
-#aman{
-    perspective:10px;
-}
+
+
 .pimg1, .pimg2, .pimg3{
    
     min-height:100vh;
@@ -74,3 +73,18 @@ transform:perspective(10px) translateZ(-10px) scaleZ(5);
     background-color: #282e34;
     color:#ddd;
 }
+/*media queries*/
+@media screen and (max-width: 768px){
+    .ptext{
+        position:absolute;
+        top:50%;
+        width:100%;
+        text-align:center;
+        color:#000;
+        font-size:15px;
+        letter-spacing:3px;
+        text-transform:uppercase;
+        transform:translateY(-50%);
+    }
+}
+```
